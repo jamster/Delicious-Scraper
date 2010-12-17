@@ -18,6 +18,13 @@ The output is in JSON so you can then do what you want with it.
 
 The data is an array of Link hashes.  Some of them have date, but it's all in order so you can extrapolate the dates by cycling through.  
 
-### Sample Data (My Links)
+## Sample Data (My Links)
 
 See jayamsters_links.json (note it comes out in a one line string and this file is tidy'd up)
+
+## More info
+
+### Credits
+
+scraper was written by Jason Amster
+
