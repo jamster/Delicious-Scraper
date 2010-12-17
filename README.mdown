@@ -26,5 +26,5 @@ See jayamsters_links.json (note it comes out in a one line string and this file 
 
 ### Credits
 
-scraper was written by Jason Amster
+scraper was written by Jason Amster 2010-12-17 in response to the rumor of delicious.com going down
 
