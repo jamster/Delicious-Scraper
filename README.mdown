@@ -1,0 +1,23 @@
+# Delicious Scraper
+
+## Install
+
+	git clone git@github.com:jamster/Delicious-Scraper.git
+
+## Use
+	
+	ruby scrape_delicious.rb -u [YOUR FAVORITE LINKER] -v # -v to see it in action
+	
+## Notes
+
+You probably want to output to some file, as this just dumps to standard out.  so it would co something like this:
+
+	ruby scrape_delicious.rb -u jayamster > jayamsters_links.txt
+	
+The output is in JSON so you can then do what you want with it.
+
+The data is an array of Link hashes.  Some of them have date, but it's all in order so you can extrapolate the dates by cycling through.  
+
+### Sample Data (My Links)
+
+See jayamsters_links.json

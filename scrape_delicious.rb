@@ -61,7 +61,7 @@ class DeliciousScraper
       puts @op
       exit
     end
-    puts @options.to_yaml
+    puts @options.to_yaml if @options[:verbose]
     
   end
   
@@ -71,7 +71,7 @@ class DeliciousScraper
   
   def run
     total_count = 0
-    puts "Running a scrape on #{delicious_url}"
+    puts "Running a scrape on #{delicious_url}" if @options[:verbose]
 
     agent = Mechanize.new
     page = agent.get(delicious_url)
