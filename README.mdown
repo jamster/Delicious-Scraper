@@ -28,3 +28,7 @@ See jayamsters_links.json (note it comes out in a one line string and this file 
 
 scraper was written by Jason Amster 2010-12-17 in response to the rumor of delicious.com going down
 
+#### Thanks
+
+to jake hofman for giving the tip to give delicious some space  so the don't boot me for scraping
+
