@@ -20,4 +20,4 @@ The data is an array of Link hashes.  Some of them have date, but it's all in or
 
 ### Sample Data (My Links)
 
-See jayamsters_links.json
+See jayamsters_links.json (note it comes out in a one line string and this file is tidy'd up)
